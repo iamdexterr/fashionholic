@@ -1,0 +1,42 @@
+.subbtn{
+    color: white;
+    background-color: black;
+    padding: 10px 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.subbtn:hover{
+    background-color: grey;
+    color: #000;
+}
+.contact{
+    background-image: url('/assets/images/contact.jpg');
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+}
+.row{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+}
+h1{
+    color: black;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+@media  screen and (max-width:600px) 
+{
+    .contact{
+        height: 700px;
+    }
+    form{
+        width: 100%;
+    }
+    .row{
+        top: 25%;
+    }
+    
+}

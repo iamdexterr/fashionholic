@@ -1,0 +1,22 @@
+.clothbox2 img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.clothbox2 h1{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.buybtn{
+    text-decoration: none;
+    background-color: green;
+    color: #fff;
+    padding: 10px 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.buybtn:hover{
+    background-color: tomato;
+}

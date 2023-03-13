@@ -1,0 +1,74 @@
+img{
+    width: 100%;
+    border-radius: 30px;
+    height: 400px;
+}
+.fheading{
+    font-size: 20px;
+    font-weight: bold;
+}
+.backbtn{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 5px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.backbtn:hover{
+    background-color: grey;
+    color:#fff;
+}
+.placebtn{
+    text-decoration: none;
+    background-color :green;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 5px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.placebtn:hover{
+    color: #fff;
+    background-color: red;
+}
+form{
+    width: 50%;
+    margin-top: 3%;
+}
+.sizebtn{
+    padding: 0px 10px;
+    margin: 0px 5px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.sizebtn.active-link{
+    color: red;
+}
+p,
+label {
+    font: 0.9rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: 0.4rem;
+}
+.qbtn{
+    padding: 5px 5px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.qbtn:hover{
+    background-color: grey;
+
+}
+@media  screen and (max-width:600px) 
+{
+    form{
+        width: 100%;
+    }
+    
+}

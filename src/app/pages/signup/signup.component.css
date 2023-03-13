@@ -1,0 +1,48 @@
+.subbtn{
+    color: white;
+    background-color: black;
+    padding: 10px 5px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.subbtn:hover{
+    background-color: grey;
+    color: #000;
+}
+form{
+    position: absolute;
+    left: 38%;
+    top:22%;
+    width: 50%;
+    
+}
+.login{
+    background-image: url('/assets/images/login1.jpg');
+    height: 560px;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: red;
+    font-weight: bolder;
+}
+/* img{
+    height: 50px;
+} */
+@media  screen and (max-width:600px) 
+{
+    .login{
+        height: 700px;
+    }
+    form{
+        width: 50%;
+        left: 25%;
+
+    }
+    
+}
+
+

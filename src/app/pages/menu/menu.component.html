@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let cd of clothdata">
+            <div class="clothbox2 mt-3 mb-3">
+                <img src="{{cd.brandimg}}" alt="">
+                <h1>{{cd.brandname}}</h1>
+                <p>{{cd.price|currency:'INR'}}</p>
+                <p>{{cd.desc}}</p>
+                <a [routerLink]="['/menu',cd.id]" class="buybtn">Buy Now <i class="bi bi-bag-heart"></i></a>
+            </div>
+        </div>
+    </div>
+    
+</div>

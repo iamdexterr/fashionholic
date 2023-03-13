@@ -1,0 +1,69 @@
+<div class="banner">
+    <div class="content">
+        <h1>FASHION AS UNIQUE <br>AS YOU ARE.</h1>
+        <a [routerLink]="['/menu']">Order Now <i class="bi bi-arrow-left-circle"></i></a>
+    </div>
+</div>
+
+<div class="container mt-5 mb-4">
+    <h1 style="font-weight: bolder; color: green;" class="text-center">HOW TO PLACE ORDER</h1>
+    <div class="row mt-4">
+        <div class="col-lg-4 mt-2">
+            <div class="stepbox">
+                <h1>1.</h1>
+                <p>select cloth</p>
+            </div>
+        </div>
+        <div class="col-lg-4 mt-2">
+            <div class="stepbox">
+                <h1>2.</h1>
+                <p>fill the details</p>
+            </div>
+        </div>
+        <div class="col-lg-4 mt-2">
+            <div class="stepbox">
+                <h1>3.</h1>
+                <p>order delivered within 2-3 days</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5 mb-3">
+    <h1 class="text-center">PICK YOUR <span class="highlight">FAVOURITE ONE</span><i class="bi bi-balloon-heart"></i>
+    </h1>
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let cd of clothdata;index as i">
+            <div class="clothbox" *ngIf="i<=3">
+                <img src="{{cd.brandimg}}">
+                <h1> {{cd.brandname}} </h1>
+                <p> {{cd.price | currency:'INR'}} </p>
+            </div>
+        </div>
+    </div>
+    <a class="viewbtn" [routerLink]="['/menu']">View more <i class="bi bi-arrow-left-circle"></i></a>
+</div>
+
+<!-- <div class="container mt-5 mb-4">
+    <h1 style="font-weight: bolder; color: green;" class="text-center">HOW TO PLACE ORDER</h1>
+    <div class="row mt-4">
+        <div class="col-lg-4 mt-2">
+            <div class="stepbox">
+                <h1>1.</h1>
+                <p>select cloth</p>
+            </div>
+        </div>
+        <div class="col-lg-4 mt-2">
+            <div class="stepbox">
+                <h1>2.</h1>
+                <p>fill the details</p>
+            </div>
+        </div>
+        <div class="col-lg-4 mt-2">
+            <div class="stepbox">
+                <h1>3.</h1>
+                <p>order delivered within 2-3 days</p>
+            </div>
+        </div>
+    </div>
+</div> -->

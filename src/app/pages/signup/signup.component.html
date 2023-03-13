@@ -1,0 +1,19 @@
+<div class="login">
+    <form class="col-lg-6 mt-5 mb-5">
+        <h1>Sign Up</h1>
+        <div class="row">
+            <div class="col-lg-8 mt-2 mb-2">
+                <input type="text" placeholder="FULL NAME" class="form-control" required>
+            </div>
+            <div class="col-lg-8 mt-2 mb-2">
+                <input type="email" placeholder="EMAIL ADDRESS" class="form-control" required>
+            </div>
+            <div class="col-lg-8 mt-2 mb-2">
+                <input type="password" placeholder="PASSWORD" class="form-control" maxlength="8" required> 
+            </div>
+            <div class="col-lg-8 mt-2 mb-2">
+                 <button [routerLink]="['/home']" class="subbtn">Sign Up <i class="bi bi-clipboard-check"></i></button>
+            </div>
+        </div>
+    </form>
+</div>
